@@ -7,7 +7,7 @@ const bodyParser = require("body-parser");
 const graphqlHTTP = require("express-graphql");
 const MyGraphQLSchema = require("./schema");
 
-mongoose.connect("mongodb://sarima:sarim123@ds113063.mlab.com:13063/mytodo");
+mongoose.connect("");
 
 const app = express();
 
